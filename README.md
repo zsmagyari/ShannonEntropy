@@ -1,7 +1,9 @@
 # Dynamic World Shannon Entropy as a Scale-Sensitive Indicator of Surface Urban Heat Island Intensity: Evidence from Seven Romanian Cities
 *Authored by Zsolt Magyari-Sáska and Ionel Haidu*
 
-The repository has two main folders:
+**Abstract:** Surface urban heat island intensity is shaped not only by land-cover composition but also by the spatial heterogeneity of urban surfaces. This study evaluates whether Shannon entropy derived from Dynamic World class probabilities can serve as a ro-bust indicator of pointwise SUHI intensity across seven major Romanian cities. Sum-mer daytime Landsat 8/9 observations for 2021–2025 were harmonized into multi-year median land surface temperature composites, while Dynamic World probabilities were used to compute normalized Shannon entropy at 90, 150, 300, and 600 m aggregation windows. SUHI was defined relative to a rural reference whose delineation was ex-amined through a multi-parameter sensitivity analysis, after which entropy–SUHI re-lationships were modelled using generalized additive models with and without an ad-ditional spatial smooth. Across all seven cities, the entropy–SUHI relationship was consistently negative, with higher entropy values tending to be associated with lower local thermal excess. The best-supported models were usually obtained at 150 m and more broadly within the 150–300 m range, while very coarse aggregation weakened performance. Spatially adjusted models explained 57.2–82.4% of SUHI deviance, showing that entropy captures a stable but partial component of intra-urban thermal variability. Alternative tied-best rural delineations mainly shifted the SUHI baseline and left the fitted entropy response essentially unchanged. Our findings support prob-ability-based entropy as a reliable, scale-sensitive descriptor of urban surface mixture relevant to intra-urban thermal patterning across diverse geographical and climatic settings.
+
+The accompanying repository consists of two main folders:
 
 - **scripts** – contains the R scripts corresponding to each methodological step.  
 - **results** – contains the principal output files, organized according to the structure described below.  
